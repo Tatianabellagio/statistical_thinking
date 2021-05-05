@@ -1,0 +1,15 @@
+help(mean)
+library(help= "datasets")
+
+## Exploring iris dataset ##
+head(iris, n = 12)
+summary(iris)
+
+# lo que en python es . acá es $
+iris$Sepal.Length
+summary(iris$Sepal.Length)
+mean(iris$Sepal.Length)
+median(iris$Sepal.Length)
+
+## histogramas
+hist(iris$Sepal.Length, xlab = "Largo del sépalo")
